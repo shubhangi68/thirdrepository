@@ -1,0 +1,21 @@
+#include<stdio.h>
+int
+main()
+{
+    int start, end;
+    printf("Enter start:1");
+    scanf("%d",&start);
+    printf("Enter end:100");
+    scanf("%d",&end);
+
+    while(start<=end)
+    {
+        if(start%2==0)
+        {
+        printf("%d\n",start);
+        }
+        start=start+1;
+
+    }
+
+}
